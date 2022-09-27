@@ -5,17 +5,11 @@ li {
     Height: 87px;
     border-radius: 4px;
     background: #F8F9FA;
+    background: #212529;
 
     margin-top: 32px;
 }
 
-.entrada {
-    border-left: 5px solid #03B898;
-}
-
-.saída {
-    border-left: 5px solid #E9ECEF;
-}
 
 li > span > h3 {
     Width: 337px;
@@ -29,20 +23,20 @@ li > span > h3 {
     font-size: 16px;
     line-height: 30px;
 
-    color: #212529;
+    color: #FD377E;
 }
 
 li > span > h4 {
     Width: 62px;
     Height: 27px;
-    margin-left: 2px;
-
+    margin-left: 10px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 22px;
-    color: #868E96;
+    font-size: 15px;
+    line-height: 12px;
+    color: #E9ECEF;
+    padding: 0px;
 }
 
 .styleLinha {
@@ -56,9 +50,9 @@ li span > p {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 22px;
-    color: #212529;
+    font-size: 15px;
+    line-height: 35px;
+    color: #FD377E;
 
 }
 

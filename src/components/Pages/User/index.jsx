@@ -29,30 +29,34 @@ function User({users, setUsers}) {
 
     return (
         <>  
-            <header className="App-header">
+            <header className="Cabecalho">
                 <span>
-                    <h1 className='color_Nu'>Nu</h1>
+                    <h1 className='color_Agenda'>Agenda</h1>
                     <h1 className='color_Kenzie'>Kenzie</h1>
                 </span>
                 <button>Inicio</button>
             </header>
             <main className='Home'>
-                <ul>
+                <section className="userInfo">
                     <h2>Bem Vindo {params.name}</h2>
-                    <li>
-                        Usuario: {user.name}
-                    </li>
-                    <li>
-                        E-mail: {user.email}
-                    </li>
-                </ul>
-                <section className='entradaDados'>
-                    <FormContact listContacts={listContacts} setListContacts={setListContacts}/>
+                    <ul>
+                        <li>
+                            Usuario: {user.name}
+                        </li>
+                        <li>
+                            E-mail: {user.email}
+                        </li>
+                    </ul>
                 </section>
-                <section>
-                {/*} <List listTransactions={listTransactions} setListTransactions={setListTransactions}/>*/}
-                    <Condicional listContacts={listContacts} setListContacts={setListContacts}/>
-                </section>
+                <div className="mainPage">
+                    <section className='entradaDados'>
+                        <FormContact listContacts={listContacts} setListContacts={setListContacts}/>
+                    </section>
+                    <section>
+                    {/*} <List listTransactions={listTransactions} setListTransactions={setListTransactions}/>*/}
+                        <Condicional listContacts={listContacts} setListContacts={setListContacts}/>
+                    </section>
+                </div>
             </main>
             <button onClick={() => handleClick()}>Voltar</button>
         </>
@@ -60,3 +64,6 @@ function User({users, setUsers}) {
 }
 
 export default User;
+// scheduled with Nikolle Lima Marques
+
+// 09:30 - 10:00, Monday, October 10, 2022

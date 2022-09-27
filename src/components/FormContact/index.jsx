@@ -3,7 +3,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as yup from "yup";
-// import "./style.css"
+import "./style.css"
 
 function FormContact({listContacts, setListContacts}) {
     
@@ -61,7 +61,7 @@ function FormContact({listContacts, setListContacts}) {
 
     
     return (
-        <form className="signupForm" onSubmit={handleSubmit(onRegister)}>
+        <form className="signupFormContact" onSubmit={handleSubmit(onRegister)}>
         <input type="text" placeholder="Nome" {...register("name")}/>
         {errors.name && <span>{errors.name.message}</span>}
         <input type="text" placeholder="E-mail" {...register("email")}/>
