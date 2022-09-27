@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Moonrocks&display=swap');
+
+.Cabecalho > h2 {
+    background: black;
+    font-size: large;
+}
+
+.Cabecalho > ul > li {
+    background: black;
+    font-size: large;
+}
+
+h2{
+    font-family: "Rubik Moonrocks",sans-serif;
+    font-size: xx-large;
+    color: #FD377E;
+}
+
+button {
+    width: 100px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    background: #212529;
+    color:#FFFFFF;
+    border: none;
+    box-shadow: 2px 1px #FD377E;
+}
+
+ul > li {
+    font-family: "Rubik Moonrocks",sans-serif;
+    font-size: xx-large;
+    color: #FD377E;
+}

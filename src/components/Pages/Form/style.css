@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;800&display=swap');
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+.signupTitle {
+    display: flex;
+    justify-content: space-between;
+
+    width: 295.83px;
+    height: 598.47px;
+}
+
+.signupTitle > h2 {
+    position: absolute;
+    margin-top: 49.46px;
+    margin-left: 15px;
+    color: #FD377E;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.signupTitle > button {
+    position: absolute;
+    width: 79.54px;
+    height: 25.58px;
+    margin-top: 49.46px;
+    margin-left: 228.46px;
+    border-radius: 4px;
+    padding: 0px 16px 0px 16px;
+    gap: 10.15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16.2426px;
+    border: none;
+
+    background: #212529;
+
+}
+
+.signupTitle > button > p {
+    position: static;
+    width: 28px;
+    height: 23px;
+
+    font-family: "Inter",sans-serif;
+    font-weight: normal;
+    font-size: 9.59437px;
+    line-height: 23px;
+
+    text-align: center;
+
+    color: #F8F9FA;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33.5801px 17.5897px;
+    gap: 17.59px;
+
+    position: absolute;
+    width: 295.83px;
+    height: 598.47px;
+    margin-left: 12px;
+    margin-top: 100.37px;
+
+    background: #212529;
+    box-shadow: 0px 3.19812px 31.9812px -7.99531px
+    rgb(0, 0, 0, 0.25);
+    border-radius: 3.199812px;
+
+}
+
+.signupForm > h2 {
+    width: 101.54px;
+
+    
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 14.39px;
+    line-height: 22.39px;
+
+    color: #F8F9FA;
+
+}
+
+.signupForm > p {
+    position: static;
+    width: 140.71px;
+    height: 17.59px;
+
+
+    font-family: "Inter",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.59437px;
+    line-height: 18px;
+
+    color: #868E96;
+}
+
+.signupForm > label {
+    position: static;
+    width: 77px;
+    margin-left: 25%;
+    margin-right: 89.39%;
+
+
+    font-family: "Inter",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.37988px;
+    line-height: 0px;
+
+    color: #F8F9FA;
+
+}
+
+.signupForm > input {
+    position: static;
+    width: 263.79px;
+    height: 38.38px;
+
+    margin-bottom: 5px;
+    padding: 0px 13px 0px 13px;
+    gap: 8.12px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background: #343B41;
+    border: 0.973988px solid #343B41;
+    box-sizing: border-box;
+    border-radius: 3.19812px;
+
+}
+
+.signupForm > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 260.65px;
+    height: 38.38px;
+
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 0px 22.3336px;
+    gap: 10.15px;
+
+    background: #59323F;
+    border: 1.2182px solid #59323F;
+    box-sizing: border-box;
+}
+
+.signupForm > button > p {
+    position: static;
+    width: 61px;
+    height: 22px;
+
+
+    font-family: "Inter",sans-serif;
+    font-style: 500;
+    font-size: 12.7925px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+}

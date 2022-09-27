@@ -1,0 +1,76 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    Width: 560px;
+    Height: 87px;
+    border-radius: 4px;
+    background: #F8F9FA;
+
+    margin-top: 32px;
+}
+
+.entrada {
+    border-left: 5px solid #03B898;
+}
+
+.saída {
+    border-left: 5px solid #E9ECEF;
+}
+
+li > span > h3 {
+    Width: 337px;
+    Height: 18px;
+    display: flex;
+    margin-left: 15px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #212529;
+}
+
+li > span > h4 {
+    Width: 62px;
+    Height: 27px;
+    margin-left: 2px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #868E96;
+}
+
+.styleLinha {
+    display: flex;
+}
+
+li span > p {
+    Width: 102px;
+    Height: 22px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+
+}
+
+li span > button {
+    Width: 82.56px;
+    Height: 29.78px;
+
+    margin-top: 15px;
+    margin-right: 15px;
+
+    border-radius: 8px;
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    color: #868E96;
+}
